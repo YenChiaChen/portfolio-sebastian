@@ -31,8 +31,8 @@ const FlyoutNav = () => {
       transition-all duration-300 ease-out lg:px-12
       ${
         scrolled
-          ? "bg-neutral-950 py-3 shadow-xl"
-          : "backdrop-blur py-6 shadow-none"
+          ? "bg-neutral-950 py-3 shadow-xl bg-opacity-80"
+          : "backdrop-blur py-6 shadow-none bg-neutral-800 bg-opacity-80"
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between">
@@ -411,20 +411,21 @@ const LINKS = [
   {
     text: "Home",
     href: "#",
-    component: PricingContent,
+    component: undefined,
   },
   {
     text: "About",
     href: "#",
-    component: PricingContent,
+    component: undefined,
   },
   {
     text: "Projects",
     href: "#",
-    component: PricingContent,
+    component: undefined,
   },
   {
     text: "Content",
     href: "#",
+    component: undefined,
   },
 ];
