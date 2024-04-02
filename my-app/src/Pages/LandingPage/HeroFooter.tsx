@@ -8,7 +8,7 @@ import img_logo_sciencegallery from '../../assets/img/img_logo_sciencegallery.pn
 
 export default function HeroFooter() {
     return (
-        <div className='w-full bg-white z-3 relative bg-opacity-70 backdrop-blur '>
+        <div className='w-full bg-white z-30 relative bg-opacity-70 backdrop-blur '>
             <div className='container mx-auto py-8 text-center w-2/3'>
                 <p className='text-[#6F6F6F] font-light text-xs'>Multidisciplinary Collaborations With</p>
                 <div className='flex justify-between gap-12 mt-6'>

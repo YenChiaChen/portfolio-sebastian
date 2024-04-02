@@ -9,19 +9,19 @@ export default function HeroSection() {
     return (
         <>
             <div
-                className='min-h-[80vh] relative'
+                className='relative'
                 style={{
                     backgroundImage: `url(${img_bg})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                 }}
             >
-                <img src={img_selfie} className='w-[500px] absolute bottom-12 right-1/4' />
-                <div className='container grid grid-cols-4 gap-4 pt-48 mx-auto'>
+                <img src={img_selfie} className='w-[500px] absolute bottom-12 right-1/4 2xl:left-1/2 z-10' />
+                <div className='container grid grid-cols-4 gap-4 pt-48 mx-auto relative'>
                     <div className='col-span-4 text-white text-[5rem] font-serif mb-24'>
                         <TextSpaceBetween text='SEBASTIANWANG' />
                     </div>
-                    <div className='col-span-2 mb-24 relative z-3'>
+                    <div className='col-span-2 mb-24 relative z-20'>
                         <p className='text-[#DD663C] mb-3 text-xl font-light'>Service Design</p>
                         <p className='text-black mb-3 text-3xl font-light'>A Strategy Weaver Who Spins</p>
                         <p className='text-black mb-3 text-3xl font-bold'>Smooth Services For The Next Era.</p>
