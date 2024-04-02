@@ -7,7 +7,7 @@ import {
   useScroll,
   motion,
 } from "framer-motion";
-import TextSwap from "../Component/TestSwap";
+import TextSwap from "../Component/TextSwap";
 
 const Example = () => {
   return (
@@ -27,12 +27,12 @@ const FlyoutNav = () => {
 
   return (
     <nav
-      className={`fixed top-0 z-50 w-full px-6 text-white 
+      className={`fixed top-0 z-50 w-full px-6 text-black text-sm
       transition-all duration-300 ease-out lg:px-12
       ${
         scrolled
-          ? "bg-neutral-950 py-3 shadow-xl bg-opacity-80"
-          : "backdrop-blur py-6 shadow-none bg-neutral-800 bg-opacity-80"
+          ? "bg-[#e8e8e8] py-3 shadow-xl"
+          : "backdrop-blur py-4 shadow-none bg-[#e8e8e8] bg-opacity-80"
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between">
@@ -51,19 +51,20 @@ interface LogoProps{
   scrolled: boolean
 }
 
-const Logo: React.FC<LogoProps> = ({ color = "white", scrolled }) => {
+const Logo: React.FC<LogoProps> = ({ color = "black", scrolled }) => {
   return (
     <div className="items-center gap-2">
-      <p className="text-2xl font-bold" style={{ color }}>
+      <p className="text-xl font-bold" style={{ color }}>
         Sebastian Wang
       </p>
     
       {!scrolled && (
         <TextSwap
           strings={[
-            "Project Manager",
-            "Fintech Enthusiast",
-            "Innovation Strategist",
+            "Service Designer",
+            "Storyteller",
+            "Inclusive Designer",
+            "Innovation Strategist"
           ]}
           animationType="fade"
           animationDuration="5s"
@@ -104,7 +105,7 @@ const NavLink: React.FC<NavLinkProps>  = ({ children, href, FlyoutContent }) => 
       onMouseLeave={() => setOpen(false)}
       className="relative w-fit h-fit"
     >
-      <a href={href} className="relative">
+      <a href={href} className="relative hover:border-b-[3px] pb-1 hover:box-border border-[#DD663C] duration-300">
         {children}
         <span
           style={{
