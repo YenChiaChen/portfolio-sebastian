@@ -4,6 +4,7 @@ import HeroSection from "./HeroSection";
 import ProjectSection from "./ProjectSection";
 import AboutSection from "./AboutSection"
 import SocialSection from "./SocialSection";
+import BlogSection from "./BlogSection";
 
 export default function LandingPage() {
     return (
@@ -13,6 +14,7 @@ export default function LandingPage() {
             <ProjectSection />
             <AboutSection />
             <SocialSection />
+            <BlogSection />
             <div className='h-[200vh]'></div>
         </>
     );

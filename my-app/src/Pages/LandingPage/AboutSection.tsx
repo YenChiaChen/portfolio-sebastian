@@ -14,7 +14,7 @@ export default function AboutSection() {
                             </div>
                             <p className='mt-4 text-gray-400 text-sm'>Storyteller | Inclusive Designer | Innovation Strategist | Fintech Enthusiast</p>
 
-                            <button className='bg-[#EA5514] py-2 text-white px-8 rounded-md mt-16 text-light'>Learn more</button>
+                            <button className='bg-[#DD663C] py-2 text-white px-8 rounded-md mt-16 text-light'>Learn more</button>
                         </div>
                         <div className='text-center'>
                             <SwiperCard />
