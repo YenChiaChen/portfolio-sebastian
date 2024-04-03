@@ -31,11 +31,11 @@ const FlyoutNav = () => {
       transition-all duration-300 ease-out lg:px-12
       ${
         scrolled
-          ? "bg-[#e8e8e8] py-3 shadow-xl"
+          ? "backdrop-blur py-3 shadow-xl bg-[#e8e8e8] bg-opacity-80"
           : "backdrop-blur py-4 shadow-none bg-[#e8e8e8] bg-opacity-80"
       }`}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between">
+      <div className="mx-auto flex container items-center justify-between">
         <Logo scrolled={scrolled} />
         <div className="hidden gap-6 lg:flex">
           <Links />
