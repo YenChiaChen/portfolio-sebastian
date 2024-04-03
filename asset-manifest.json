@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-sebastian/static/css/main.95e2ada8.css",
-    "main.js": "/portfolio-sebastian/static/js/main.1d6ac13c.js",
+    "main.css": "/portfolio-sebastian/static/css/main.337352c9.css",
+    "main.js": "/portfolio-sebastian/static/js/main.06813e1b.js",
     "static/js/453.ed3810f9.chunk.js": "/portfolio-sebastian/static/js/453.ed3810f9.chunk.js",
     "static/media/img_deco_selfie.png": "/portfolio-sebastian/static/media/img_deco_selfie.94b0933fe4ef2939450e.png",
+    "static/media/img_landing_about_04.jpg": "/portfolio-sebastian/static/media/img_landing_about_04.8d3ffc161126a98ae1f4.jpg",
     "static/media/img_landing_project_02.jpg": "/portfolio-sebastian/static/media/img_landing_project_02.baa5582648ffee50b580.jpg",
+    "static/media/img_landing_about_02.jpg": "/portfolio-sebastian/static/media/img_landing_about_02.75bed71e53e71ab9ec8a.jpg",
+    "static/media/img_landing_about_01.jpg": "/portfolio-sebastian/static/media/img_landing_about_01.6ee267afbc5e369ac668.jpg",
+    "static/media/img_landing_about_03.jpg": "/portfolio-sebastian/static/media/img_landing_about_03.73cb0fd7ba976010c023.jpg",
     "static/media/img_bg_cover.jpg": "/portfolio-sebastian/static/media/img_bg_cover.82c5e5c6aca2ad6e2065.jpg",
     "static/media/img_landing_project_01.jpeg": "/portfolio-sebastian/static/media/img_landing_project_01.cc67dffd68c889674645.jpeg",
     "static/media/img_logo_gds.png": "/portfolio-sebastian/static/media/img_logo_gds.cd265fcae49a5a6470f0.png",
@@ -14,12 +18,12 @@
     "static/media/img_logo_braincharity.png": "/portfolio-sebastian/static/media/img_logo_braincharity.167f74f91e47dc1ee113.png",
     "static/media/img_logo_advantech.png": "/portfolio-sebastian/static/media/img_logo_advantech.1bc47b110f34b39572de.png",
     "index.html": "/portfolio-sebastian/index.html",
-    "main.95e2ada8.css.map": "/portfolio-sebastian/static/css/main.95e2ada8.css.map",
-    "main.1d6ac13c.js.map": "/portfolio-sebastian/static/js/main.1d6ac13c.js.map",
+    "main.337352c9.css.map": "/portfolio-sebastian/static/css/main.337352c9.css.map",
+    "main.06813e1b.js.map": "/portfolio-sebastian/static/js/main.06813e1b.js.map",
     "453.ed3810f9.chunk.js.map": "/portfolio-sebastian/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95e2ada8.css",
-    "static/js/main.1d6ac13c.js"
+    "static/css/main.337352c9.css",
+    "static/js/main.06813e1b.js"
   ]
 }
