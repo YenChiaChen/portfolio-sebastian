@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-sebastian/static/css/main.8ec16bed.css",
-    "main.js": "/portfolio-sebastian/static/js/main.31c9a010.js",
+    "main.css": "/portfolio-sebastian/static/css/main.beaefe69.css",
+    "main.js": "/portfolio-sebastian/static/js/main.bdb9766b.js",
     "static/js/453.ed3810f9.chunk.js": "/portfolio-sebastian/static/js/453.ed3810f9.chunk.js",
-    "static/media/img_deco_selfie.png": "/portfolio-sebastian/static/media/img_deco_selfie.94b0933fe4ef2939450e.png",
     "static/media/img_landing_about_04.jpg": "/portfolio-sebastian/static/media/img_landing_about_04.8d3ffc161126a98ae1f4.jpg",
+    "static/media/img_deco_selfie.png": "/portfolio-sebastian/static/media/img_deco_selfie.e70ece4e433c1729df84.png",
     "static/media/img_landing_project_02.jpg": "/portfolio-sebastian/static/media/img_landing_project_02.baa5582648ffee50b580.jpg",
     "static/media/img_landing_about_02.jpg": "/portfolio-sebastian/static/media/img_landing_about_02.75bed71e53e71ab9ec8a.jpg",
     "static/media/img_landing_about_01.jpg": "/portfolio-sebastian/static/media/img_landing_about_01.6ee267afbc5e369ac668.jpg",
     "static/media/img_landing_about_03.jpg": "/portfolio-sebastian/static/media/img_landing_about_03.73cb0fd7ba976010c023.jpg",
     "static/media/img_bg_cover.jpg": "/portfolio-sebastian/static/media/img_bg_cover.82c5e5c6aca2ad6e2065.jpg",
     "static/media/img_landing_project_01.jpeg": "/portfolio-sebastian/static/media/img_landing_project_01.cc67dffd68c889674645.jpeg",
+    "static/media/img_landing_blog_01.webp": "/portfolio-sebastian/static/media/img_landing_blog_01.14368cd7bdbf656965c1.webp",
     "static/media/img_logo_gds.png": "/portfolio-sebastian/static/media/img_logo_gds.cd265fcae49a5a6470f0.png",
     "static/media/img_logo_sciencegallery.png": "/portfolio-sebastian/static/media/img_logo_sciencegallery.8ad85adbd4000631c9dd.png",
     "static/media/img_logo_camden.png": "/portfolio-sebastian/static/media/img_logo_camden.336a96a24a9c6e2947e6.png",
@@ -18,12 +19,12 @@
     "static/media/img_logo_braincharity.png": "/portfolio-sebastian/static/media/img_logo_braincharity.167f74f91e47dc1ee113.png",
     "static/media/img_logo_advantech.png": "/portfolio-sebastian/static/media/img_logo_advantech.1bc47b110f34b39572de.png",
     "index.html": "/portfolio-sebastian/index.html",
-    "main.8ec16bed.css.map": "/portfolio-sebastian/static/css/main.8ec16bed.css.map",
-    "main.31c9a010.js.map": "/portfolio-sebastian/static/js/main.31c9a010.js.map",
+    "main.beaefe69.css.map": "/portfolio-sebastian/static/css/main.beaefe69.css.map",
+    "main.bdb9766b.js.map": "/portfolio-sebastian/static/js/main.bdb9766b.js.map",
     "453.ed3810f9.chunk.js.map": "/portfolio-sebastian/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ec16bed.css",
-    "static/js/main.31c9a010.js"
+    "static/css/main.beaefe69.css",
+    "static/js/main.bdb9766b.js"
   ]
 }
