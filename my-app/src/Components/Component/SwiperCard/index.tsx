@@ -103,7 +103,7 @@ export default function SwiperBlogCard() {
     s3 = document.querySelector(".s3");
     swiperOrderList = [s1, s2, s3];
     swiperClassList = ["swiper-1", "swiper-2", "swiper-3"];
-    rightCb()
+    rightCb();
     handleTouchDir({
       container: ".con",
       leftCb,
@@ -113,32 +113,15 @@ export default function SwiperBlogCard() {
 
   return (
     <>
-      <div className="bt-group">
-        <div className="bt bt-left" onClick={leftCb}>
-          ToLeft
-        </div>
-        <div className="bt bt-right" onClick={rightCb}>
-          ToRight
-        </div>
-      </div>
       <div className="con">
-        <div className="swiperr s1 rounded-md shadow-md !text-[#333333]">
-          <div className="max-h-[300px]  overflow-hidden relative rounded-t-md">
-            <div className="absolute top-0 left-0 bottom-0 right-0 bg-yellow-800 bg-opacity-30 flex justify-center items-center text-white text-[26px] px-10">
-              What Financial Vulnerability Is
-            </div>
-            <img className="w-full object-cover" src={img_blog_01} />
-          </div>
-          <div className="p-6 text-[16px] font-bold">
-            Design for Financial Vulnerability #1
-            <p className="text-xs font-light text-gray-700 mt-2">
-              What is financial vulnerability? Why does it matter? How does it
-              happen? Can service design help improve the issue?
-            </p>
-          </div>
+        <div className="absolute left-0 top-1/2 text-white text-3xl cursor-pointer" onClick={leftCb}>
+        &lt;
         </div>
-        <div className="swiperr s2 rounded-md shadow-md">
-          <div className="max-h-[300px]  overflow-hidden relative rounded-t-md">
+        <div className="absolute right-0 top-1/2 text-white text-3xl cursor-pointer" onClick={rightCb}>
+          &gt;
+        </div>
+        <div className="swiperr s1 rounded-md shadow-md !text-[#333333] !text-left">
+          <div className="max-h-[250px]  overflow-hidden relative rounded-t-md">
             <div className="absolute top-0 left-0 bottom-0 right-0 bg-yellow-800 bg-opacity-30 flex justify-center items-center text-white text-[26px] px-10">
               What Financial Vulnerability Is
             </div>
@@ -152,18 +135,33 @@ export default function SwiperBlogCard() {
             </p>
           </div>
         </div>
-        <div className="swiperr s3 rounded-md shadow-md">
-          <div className="max-h-[300px]  overflow-hidden relative rounded-t-md">
+        <div className="swiperr s2 rounded-md shadow-md !text-[#333333] !text-left">
+          <div className="max-h-[250px]  overflow-hidden relative rounded-t-md">
             <div className="absolute top-0 left-0 bottom-0 right-0 bg-yellow-800 bg-opacity-30 flex justify-center items-center text-white text-[26px] px-10">
-              What Financial Vulnerability Is
+              Research through Design: The Spirit of Iteration
+            </div>
+            <img className="w-full object-cover" src={img_blog_01} />
+          </div>
+          <div className="p-6 text-[16px] font-bold">
+            Design for Futures #3
+            <p className="text-xs font-light text-gray-700 mt-2">
+              What is Research through Design? What is its value? How did I
+              conduct it in my design?
+            </p>
+          </div>
+        </div>
+        <div className="swiperr s3 rounded-md shadow-md !text-[#333333] !text-left">
+          <div className="max-h-[250px]  overflow-hidden relative rounded-t-md">
+            <div className="absolute top-0 left-0 bottom-0 right-0 bg-yellow-800 bg-opacity-30 flex justify-center items-center text-white text-[26px] px-10">
+              5 Tips to Tell A Good Story
             </div>
             <img className="w-full object-cover" src={img_blog_03} />
           </div>
           <div className="p-6 text-[16px] font-bold">
-            Design for Financial Vulnerability #1
+            Design for Futures #4
             <p className="text-xs font-light text-gray-700 mt-2">
-              What is financial vulnerability? Why does it matter? How does it
-              happen? Can service design help improve the issue?
+              Good storytelling should provoke various interactions and opinions
+              beyond ranking the idea as good or bad.
             </p>
           </div>
         </div>

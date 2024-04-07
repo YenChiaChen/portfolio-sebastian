@@ -5,6 +5,7 @@ import ProjectSection from "./ProjectSection";
 import AboutSection from "./AboutSection"
 import SocialSection from "./SocialSection";
 import BlogSection from "./BlogSection";
+import ContactSection from "./ContactSection";
 
 export default function LandingPage() {
     return (
@@ -15,7 +16,7 @@ export default function LandingPage() {
             <AboutSection />
             <SocialSection />
             <BlogSection />
-            <div className='h-[200vh]'></div>
+            <ContactSection />
         </>
     );
   }
