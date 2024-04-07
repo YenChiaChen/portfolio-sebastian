@@ -14,7 +14,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imgURL, title, subTitle, conc
 
   return (
     <>
-    <div className="w-full cursor-pointer card"
+    <div className="w-full cursor-pointer card bg-white"
          onMouseEnter={() => setIsHovered(true)}
          onMouseLeave={() => setIsHovered(false)}>
       <div className="max-h-80 overflow-hidden relative rounded-t-md">
@@ -23,7 +23,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imgURL, title, subTitle, conc
           <p className="text-white text-center px-16 font-light">{content}</p>
         </div>
       </div>
-      {/* <div className={`px-6 py-4 text-center transform transition-all duration-500 ${isHovered ? '' : ''}`}>
+      <div className={`px-6 py-4 text-center transform transition-all duration-500 ${isHovered ? '' : ''}`}>
         {isHovered ? (
           <div className="backface-hidden">
           <div className="font-bold text-md mb-2">{title}</div>
@@ -37,21 +37,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imgURL, title, subTitle, conc
             <p className="text-gray-300 text-xs">{concept}</p>
           </React.Fragment>
         )}
-      </div> */}
-        <div className='bg-white text-center'>
-        <p className="font-bold text-md my-2">{title}</p>
-         </div>
-      <div className="flip-card ">
-    <div className="flip-card-inner">
-        <div className="flip-card-front bg-white rounded-b-md">
-            <p className="text-gray-500 text-sm mb-1">{subTitle}</p>
-            <p className="text-gray-300 text-xs">{concept}</p>
-        </div>
-        <div className="flip-card-back bg-white rounded-b-md flex flex-cols justify-between">
-            <p className="text-[#EA5514] text-sm mb-1">{type}</p>
-        </div>
-    </div>
-</div>
+      </div>
     </div>
     </>
   );

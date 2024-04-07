@@ -9,10 +9,10 @@ export default function ProjectSection() {
                 <div className='container mx-auto pt-24'>
                     <div className='grid md:grid-cols-2 gap-x-24'>
                         <div className='text-left'>
-                            <p className='tracking-widest text-[#EA5514]'>PROJECTS</p>
+                            <p className='tracking-widest text-[#EA5514] text-subtitle'>PROJECTS</p>
                             <div className='w-[10px] border-b-[4px] border-[#EA5514] h-[16px]'>&nbsp;</div>
                         </div>
-                        <div className='text-[#6F6F6F] text-sm'>
+                        <div className='text-[#6F6F6F] text-content font-light'>
                             <p>I am passionate about these projects, helping services progress to the next level while prioritizing accessibility and inclusivity.</p>
                         </div>
                         <div className='mt-12'>
@@ -23,7 +23,7 @@ export default function ProjectSection() {
                       </div>
                     </div>
                     <div className='text-center mt-20'>
-                        <button className='bg-[#EA5514] py-2 text-white px-8 rounded-md'>Show more</button>
+                        <button className='bg-[#EA5514] py-2 text-white px-8 text-content rounded-md'>Show more</button>
                     </div>
                 </div>
             </div>

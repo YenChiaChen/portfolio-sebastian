@@ -16,10 +16,10 @@ export default function HeroSection() {
                     backgroundPosition: 'center',
                 }}
             >
-                <img src={img_selfie} className='w-[500px] absolute bottom-12 right-1/4 2xl:left-1/2 z-10' />
                 <div className='container grid grid-cols-4 gap-4 pt-48 mx-auto relative'>
-                    <div className='col-span-4 text-white text-[5rem] font-serif mb-24'>
-                        <TextSpaceBetween text='SEBASTIANWANG' />
+                <img src={img_selfie} className='w-[500px] absolute -bottom-24 left-[46%] 2xl:left-[45%] z-10' />
+                    <div className='col-span-4 text-white text-[96px] font-serif mb-24'>
+                        <TextSpaceBetween text='SEBASTIAN   WANG' />
                     </div>
                     <div className='col-span-2 mb-24 relative z-20'>
                         <p className='text-[#DD663C] mb-3 text-xl font-light'>Service Design</p>

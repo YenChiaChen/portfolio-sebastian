@@ -27,7 +27,7 @@ export default function SwiperCard() {
                     el: ".swiper-custom-pagination",
                     clickable: true,
                   }}
-                className='w-[400px] h-[400px] bg-black rounded-xl'
+                className='w-[450px] h-[450px] bg-black rounded-xl'
                 autoplay={{
                     delay: 4500,
                     disableOnInteraction: false,

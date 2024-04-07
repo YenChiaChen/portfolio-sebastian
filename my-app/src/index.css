@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+.swiper-button-prev{
+  color: white !important;
+}
+.swiper-button-next{
+  color: white !important;
+}
+.container{
+  max-width: 1280px !important;
+  color: #404040 !important;
+}
+.text-subtitle{
+  font-size: 24px;
+}
+.text-content{
+  font-size: 20px;
+}
+
 @keyframes fade {
   0% {
     opacity: 0;
@@ -135,4 +152,69 @@
 /* Customizes the active pagination bullet */
 .swiper-pagination-bullet-active {
   background: #EA5514 !important;  /* Highlight color for the active bullet */
+}
+
+.bt-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: fit-content;
+  padding: 20px 0;
+}
+.bt {
+  padding: 10px 20px;
+  background: rgb(82, 113, 131);
+  color: #fff;
+  border-radius: 10px;
+  user-select: none;
+  cursor: pointer;
+}
+.con {
+  width: 100%;
+  height: 450px;
+  transform-style: preserve-3d;
+  perspective: 400px;
+  position: relative;
+}
+.swiperr {
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  transform-origin: center center 0;
+  font-size: 4rem;
+  text-align: center;
+  color: #fff;
+  transition: transform 0.3s;
+}
+.swiper-1 {
+  transform: translate3d(20vw, 0, -10vw);
+}
+.swiper-2 {
+  transform: translate3d(-20vw, 0, -10vw);
+}
+.swiper-3 {
+  transform: translate3d(0, 0, 0);
+}
+.swiper-4 {
+  transform: translate3d(20vw, 0, -10vw);
+}
+.swiper-5 {
+  transform: translate3d(40vw, 0, -20vw);
+}
+.s1 {
+  background-color: white;
+}
+.s2 {
+  background-color: white;
+}
+.s3 {
+  background-color: white;
+}
+.s4 {
+  background-color: yellow;
+}
+.s5 {
+  background-color: purple;
 }
