@@ -424,7 +424,7 @@ const LINKS = [
   },
   {
     text: "Projects",
-    href: "#",
+    href: "/project",
     component: undefined,
   },
   {
