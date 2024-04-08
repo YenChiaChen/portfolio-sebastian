@@ -1,3 +1,6 @@
+import { faLinkedin, faMedium, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function ContactSection() {
     return (
@@ -7,6 +10,12 @@ export default function ContactSection() {
                 <div className='container mx-auto py-12 text-center'>
                    <p className="text-[36px] font-bold text-[#DD663C] tracking-[16px]">CONTACT</p>
                    <p className='text-left max-w-[660px] mx-auto text-[#D9D9D9] mt-4 tracking-widest font-light text-[20px] mb-4'>For inquiries or opportunities, feel free to reach out to me! I'm always open to connecting with fellow professionals and discussing design. <span className='font-bold'>Let's spin impactful services together!</span></p>
+                    <div className='flex gap-4 justify-center mt-8 '>
+                        <div className='flex items-center border-[2px] border-white text-[20px] text-white p-3 rounded-full opacity-50 hover:opacity-100 cursor-pointer hover:border-[4px] box-border hover:-m-[2px] duration-200'><FontAwesomeIcon icon={faEnvelope} /></div>
+                        <div className='flex items-center border-[2px] border-white text-[20px] text-white p-3 rounded-full opacity-50 hover:opacity-100 cursor-pointer hover:border-[4px] box-border hover:-m-[2px] duration-200'><FontAwesomeIcon icon={faLinkedin} /></div>
+                        <div className='flex items-center border-[2px] border-white text-[18px] text-white py-3 px-[10px] rounded-full opacity-50 hover:opacity-100 cursor-pointer hover:border-[4px] box-border hover:-m-[2px] duration-200'><FontAwesomeIcon icon={faMedium} /></div>
+                        <div className='flex items-center border-[2px] border-white text-[20px] text-white p-3 rounded-full opacity-50 hover:opacity-100 cursor-pointer hover:border-[4px] box-border hover:-m-[2px] duration-200'><FontAwesomeIcon icon={faInstagram} /></div>
+                    </div>
                 </div>
             </div>
             <div className='bg-[#202020] h-[60px]'></div>

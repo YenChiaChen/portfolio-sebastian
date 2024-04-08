@@ -2,6 +2,8 @@ import { useEffect, useRef } from "react";
 import img_blog_01 from "../../../assets/img/img_landing_blog_01.webp";
 import img_blog_02 from "../../../assets/img/img_landing_blog_02.webp";
 import img_blog_03 from "../../../assets/img/img_landing_blog_03.webp";
+import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 interface HandleTouchDirParams {
   container: string;
@@ -115,10 +117,10 @@ export default function SwiperBlogCard() {
     <>
       <div className="con">
         <div className="absolute left-0 top-1/2 text-white text-3xl cursor-pointer" onClick={leftCb}>
-        &lt;
+        <FontAwesomeIcon icon={faChevronLeft} />
         </div>
         <div className="absolute right-0 top-1/2 text-white text-3xl cursor-pointer" onClick={rightCb}>
-          &gt;
+        <FontAwesomeIcon icon={faChevronRight} />
         </div>
         <div className="swiperr s1 rounded-md shadow-md !text-[#333333] !text-left">
           <div className="max-h-[250px]  overflow-hidden relative rounded-t-md">

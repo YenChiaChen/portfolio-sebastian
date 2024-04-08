@@ -1,11 +1,14 @@
 import DraggableCard from "../../Components/Component/DragNDropCard";
+import { ReactComponent as DecoBubble} from "../../assets/img/img_deco_bubble_social.svg"
 export default function SocialSection() {
     
     return (
         <div className='bg-[#e8e8e8]'>
         <div className='container mx-auto pt-48'>
-            <div className='grid md:grid-cols-5 gap-x-24 pb-48'>
+            <div className='grid md:grid-cols-5 gap-x-24 pb-48 '>
                 <div className='text-left relative col-span-3'>
+
+            <div className="absolute right-0 -bottom-24"><DecoBubble /></div>
                 <DraggableCard>
                     <div className='cursor-grab text-[13px] p-8 border-[1px] border-[#808080] rounded-xl w-[540px] grid grid-cols-11 gap-4 absolute hover:z-50 right-8 bg-[#e8e8e8] z-40'>
                         <p className='col-span-10'>"Sebastian exemplifies effective co-production by nurturing collective and reflective project development. His strong diligence and intelligence shine through, as he engages with people earnestly and delivers remarkable insights and outcomes. It's refreshing to see a designer prioritize genuine inclusivity."<span className='font-bold'> - Natalie, V&A Design Curator</span></p>

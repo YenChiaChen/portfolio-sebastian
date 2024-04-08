@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { FiMenu, FiArrowRight, FiX, FiChevronDown } from "react-icons/fi";
+import LandingPage from "../../Pages/LandingPage";
+import AboutPage from "../../Pages/AboutPage";
 import { FaUserCircle } from "react-icons/fa";
 import {
   useMotionValueEvent,
@@ -8,6 +10,7 @@ import {
   motion,
 } from "framer-motion";
 import TextSwap from "../Component/TextSwap";
+import { Link } from "react-router-dom";
 
 const Example = () => {
   return (
@@ -105,7 +108,7 @@ const NavLink: React.FC<NavLinkProps>  = ({ children, href, FlyoutContent }) => 
       onMouseLeave={() => setOpen(false)}
       className="relative w-fit h-fit"
     >
-      <a href={href} className="relative hover:border-b-[3px] pb-1 hover:box-border border-[#DD663C] duration-300">
+      <Link to={href} className="relative hover:border-b-[3px] pb-1 hover:box-border border-[#DD663C] duration-300">
         {children}
         <span
           style={{
@@ -113,7 +116,7 @@ const NavLink: React.FC<NavLinkProps>  = ({ children, href, FlyoutContent }) => 
           }}
           className="absolute -bottom-2 -left-2 -right-2 h-1 origin-left scale-x-0 rounded-full bg-orange-500 transition-transform duration-300 ease-out"
         />
-      </a>
+      </Link>
       <AnimatePresence>
         {showFlyout && (
           <motion.div
@@ -411,12 +414,12 @@ export default Example;
 const LINKS = [
   {
     text: "Home",
-    href: "#",
+    href: "/",
     component: undefined,
   },
   {
     text: "About",
-    href: "#",
+    href: "/about",
     component: undefined,
   },
   {
