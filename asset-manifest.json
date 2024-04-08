@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-sebastian/static/css/main.0c42f6af.css",
-    "main.js": "/portfolio-sebastian/static/js/main.4081e3ca.js",
+    "main.css": "/portfolio-sebastian/static/css/main.fcc035a4.css",
+    "main.js": "/portfolio-sebastian/static/js/main.3c870662.js",
     "static/js/453.ed3810f9.chunk.js": "/portfolio-sebastian/static/js/453.ed3810f9.chunk.js",
     "static/media/img_landing_about_04.jpg": "/portfolio-sebastian/static/media/img_landing_about_04.8d3ffc161126a98ae1f4.jpg",
     "static/media/img_deco_selfie.png": "/portfolio-sebastian/static/media/img_deco_selfie.e70ece4e433c1729df84.png",
@@ -14,6 +14,8 @@
     "static/media/img_landing_blog_01.webp": "/portfolio-sebastian/static/media/img_landing_blog_01.14368cd7bdbf656965c1.webp",
     "static/media/img_landing_blog_03.webp": "/portfolio-sebastian/static/media/img_landing_blog_03.8000bfbc3a525327e1a4.webp",
     "static/media/img_landing_blog_02.webp": "/portfolio-sebastian/static/media/img_landing_blog_02.ecf1ec7423ae83bcb494.webp",
+    "static/media/img_deco_bubble_gray.svg": "/portfolio-sebastian/static/media/img_deco_bubble_gray.9ba1727d4bf573db500daed93c922fa2.svg",
+    "static/media/img_deco_bubble_social.svg": "/portfolio-sebastian/static/media/img_deco_bubble_social.ab2cc2ade8817e5e39ba11dde604ec9e.svg",
     "static/media/img_logo_gds.png": "/portfolio-sebastian/static/media/img_logo_gds.cd265fcae49a5a6470f0.png",
     "static/media/img_logo_sciencegallery.png": "/portfolio-sebastian/static/media/img_logo_sciencegallery.8ad85adbd4000631c9dd.png",
     "static/media/img_logo_camden.png": "/portfolio-sebastian/static/media/img_logo_camden.336a96a24a9c6e2947e6.png",
@@ -21,12 +23,12 @@
     "static/media/img_logo_braincharity.png": "/portfolio-sebastian/static/media/img_logo_braincharity.167f74f91e47dc1ee113.png",
     "static/media/img_logo_advantech.png": "/portfolio-sebastian/static/media/img_logo_advantech.1bc47b110f34b39572de.png",
     "index.html": "/portfolio-sebastian/index.html",
-    "main.0c42f6af.css.map": "/portfolio-sebastian/static/css/main.0c42f6af.css.map",
-    "main.4081e3ca.js.map": "/portfolio-sebastian/static/js/main.4081e3ca.js.map",
+    "main.fcc035a4.css.map": "/portfolio-sebastian/static/css/main.fcc035a4.css.map",
+    "main.3c870662.js.map": "/portfolio-sebastian/static/js/main.3c870662.js.map",
     "453.ed3810f9.chunk.js.map": "/portfolio-sebastian/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c42f6af.css",
-    "static/js/main.4081e3ca.js"
+    "static/css/main.fcc035a4.css",
+    "static/js/main.3c870662.js"
   ]
 }
