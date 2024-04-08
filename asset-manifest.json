@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-sebastian/static/css/main.fcc035a4.css",
-    "main.js": "/portfolio-sebastian/static/js/main.70f374e6.js",
+    "main.js": "/portfolio-sebastian/static/js/main.9451d09e.js",
     "static/js/453.ed3810f9.chunk.js": "/portfolio-sebastian/static/js/453.ed3810f9.chunk.js",
     "static/media/img_landing_about_04.jpg": "/portfolio-sebastian/static/media/img_landing_about_04.8d3ffc161126a98ae1f4.jpg",
     "static/media/img_deco_selfie.png": "/portfolio-sebastian/static/media/img_deco_selfie.e70ece4e433c1729df84.png",
@@ -24,11 +24,11 @@
     "static/media/img_logo_advantech.png": "/portfolio-sebastian/static/media/img_logo_advantech.1bc47b110f34b39572de.png",
     "index.html": "/portfolio-sebastian/index.html",
     "main.fcc035a4.css.map": "/portfolio-sebastian/static/css/main.fcc035a4.css.map",
-    "main.70f374e6.js.map": "/portfolio-sebastian/static/js/main.70f374e6.js.map",
+    "main.9451d09e.js.map": "/portfolio-sebastian/static/js/main.9451d09e.js.map",
     "453.ed3810f9.chunk.js.map": "/portfolio-sebastian/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fcc035a4.css",
-    "static/js/main.70f374e6.js"
+    "static/js/main.9451d09e.js"
   ]
 }
