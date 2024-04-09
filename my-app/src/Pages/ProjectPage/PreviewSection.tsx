@@ -1,6 +1,7 @@
 import { ReactElement } from "react";
 import ProjectCard from "../../Components/Component/ProjectCard";
 import img_project_01 from "../../assets/img/img_landing_project_01.jpeg";
+import { Link } from "react-router-dom";
 
 export default function PreviewSection(): ReactElement {
   return (
@@ -24,6 +25,7 @@ export default function PreviewSection(): ReactElement {
             />
           </div>
           <div>
+            <Link to="/project/mob">
             <ProjectCard
               imgURL={img_project_01}
               title="Ministry of Biodiversity"
@@ -32,6 +34,7 @@ export default function PreviewSection(): ReactElement {
               type="Speculative Design, Participatory Design, Sustainable Design"
               content="How might the government effectively engage the general public and communicate environmental policies ?"
             />
+            </Link>
           </div>
           <div>
             <ProjectCard

@@ -14,7 +14,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imgURL, title, subTitle, conc
 
   return (
     <>
-    <div className="w-full cursor-pointer card bg-white"
+    <div className="w-full cursor-pointer card bg-white h-[390px]"
          onMouseEnter={() => setIsHovered(true)}
          onMouseLeave={() => setIsHovered(false)}>
       <div className="max-h-80 overflow-hidden relative rounded-t-md">
@@ -23,7 +23,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imgURL, title, subTitle, conc
           <p className="text-white text-center px-16 font-light">{content}</p>
         </div>
       </div>
-      <div className={`px-6 py-4 text-center transform transition-all duration-500 ${isHovered ? '' : ''}`}>
+      <div className={`flex flex-col justify-center px-6 py-4 text-center transform transition-all duration-500 ${isHovered ? '' : ''}`}>
         {isHovered ? (
           <div className="backface-hidden">
           <div className="font-bold text-md mb-2">{title}</div>
