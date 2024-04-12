@@ -21,7 +21,6 @@ export default function SwiperCard() {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
-                onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper: SwiperCore) => console.log(swiper)}
                 pagination={{
                     el: ".swiper-custom-pagination",

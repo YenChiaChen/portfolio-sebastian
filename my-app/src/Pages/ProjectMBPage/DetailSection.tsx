@@ -3,7 +3,7 @@ import { ReactElement } from "react";
 export default function DetailSection(): ReactElement {
     return (
         <div className="bg-[#e8e8e8] pt-24 pb-24">
-            <footer className="footer container mx-auto">
+            <footer className="footer container mx-auto font-light">
                 <nav className='text-black'>
                     <p className="tracking-[4px] text-[16px] font-bold">DATE</p>
                     <div className="w-[19px] border-b-[6px] border-[#EA5514] h-[6px]">

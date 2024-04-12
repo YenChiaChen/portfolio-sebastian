@@ -3,6 +3,8 @@ import { ReactElement } from "react";
 import LandingSection from "./LandingSection";
 import DetailSection from "./DetailSection";
 import OverviewSection from "./OverviewSection";
+import BackgroundSection from "./BackgroundSection";
+import DesignSection from "./DesignSection";
 
 export default function ProjectMBPage(): ReactElement {
     return (
@@ -11,6 +13,8 @@ export default function ProjectMBPage(): ReactElement {
             <LandingSection />
             <DetailSection />
             <OverviewSection />
+            <BackgroundSection />
+            <DesignSection />
             <div className='bg-[#202020] h-[60px]'></div>
         </>
     );

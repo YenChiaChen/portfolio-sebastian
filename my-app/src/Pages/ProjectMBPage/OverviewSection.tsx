@@ -3,10 +3,22 @@ import img_outcome from "../../assets/img/img_project_mob_outcome.png";
 import img_process_bg from "../../assets/img/img_project_mob_process_bg.jpg"
 import img_process_01 from "../../assets/img/img_project_mob_process_01.jpg"
 import img_process_02 from "../../assets/img/img_project_mob_process_02.jpg"
+import img_process_03 from "../../assets/img/img_project_mob_process_03.jpg"
+import img_process_04 from "../../assets/img/img_project_mob_process_04.jpg"
+import img_process_05 from "../../assets/img/img_project_mob_process_05.jpg"
+import img_process_06 from "../../assets/img/img_project_mob_process_06.jpg"
+import img_process_07 from "../../assets/img/img_project_mob_process_07.jpg"
+import img_process_08 from "../../assets/img/img_project_mob_process_08.jpg"
+import img_process_09 from "../../assets/img/img_project_mob_process_09.jpg"
+import img_process_10 from "../../assets/img/img_project_mob_process_10.jpg"
+import img_process_11 from "../../assets/img/img_project_mob_process_11.jpg"
+import img_process_12 from "../../assets/img/img_project_mob_process_12.jpg"
+import img_process_logo from "../../assets/img/img_project_mob_process_logo.png"
+import HoverImage from "../../Components/Component/HoverImage";
 export default function OverviewSection(): ReactElement {
   return (
     <>
-      <div className="container mx-auto pt-24">
+      <div className="container mx-auto pt-24 w-[1100px]">
         <p className="text-[40px] font-bold text-[#EA5514]">
           Ministry of Biodiversity
         </p>
@@ -64,8 +76,19 @@ export default function OverviewSection(): ReactElement {
 
       <div className='relative w-full mt-12 '>
             <img src={img_process_bg} />
-            <img className='absolute w-[8%] left-[14%] top-[40%] h-[14%]' src={img_process_01} />
-            <img className='absolute w-[8%] left-[14%] top-[55%] h-[14%]' src={img_process_02} />
+            <HoverImage width="8%" height="14%" position="left" distance="14%" top="40%" hoverLeft="24%" hoverTop="40%" imageUrl={img_process_01} />
+            <HoverImage width="8%" height="14%" position="left" distance="14%" top="55%" hoverLeft="24%" hoverTop="40%" imageUrl={img_process_02} />
+            <HoverImage width="8%" height="18%" position="left" distance="33.5%" top="40%" hoverLeft="43.5%" hoverTop="40%" imageUrl={img_process_03} />
+            <HoverImage width="8%" height="18%" position="left" distance="33.5%" top="60%" hoverLeft="43.5%" hoverTop="40%" imageUrl={img_process_04} />
+            <img src={img_process_logo} className="absolute left-[45%] top-[37%] w-[8%]" />
+            <HoverImage width="8%" height="24%" position="right" distance="36.8%" top="40%" hoverLeft="46.8%" hoverTop="20%" imageUrl={img_process_05} />
+            <HoverImage width="8%" height="18%" position="right" distance="27%" top="40%" hoverLeft="37%" hoverTop="40%" imageUrl={img_process_06} />
+            <HoverImage width="8%" height="18%" position="right" distance="27%" top="60%" hoverLeft="37%" hoverTop="40%" imageUrl={img_process_07} />
+            <HoverImage width="7%" height="15%" position="right" distance="17.5%" top="28%" hoverLeft="26.5%" hoverTop="40%" imageUrl={img_process_08} />
+            <HoverImage width="7%" height="15%" position="right" distance="17.5%" top="49%" hoverLeft="26.5%" hoverTop="40%" imageUrl={img_process_09} />
+            <HoverImage width="7%" height="15%" position="right" distance="17.5%" top="70%" hoverLeft="26.5%" hoverTop="10%" imageUrl={img_process_10} />
+            <HoverImage width="8%" height="20%" position="right" distance="3.8%" top="20%" hoverLeft="13.8%" hoverTop="40%" imageUrl={img_process_11} />
+            <HoverImage width="8%" height="20%" position="right" distance="3.8%" top="42%" hoverLeft="13.8%" hoverTop="10%" imageUrl={img_process_12} />
           </div>
     </>
   );

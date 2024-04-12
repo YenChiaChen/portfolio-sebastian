@@ -154,6 +154,7 @@
   border-radius: 10px !important; /* Removes the rounding to create a square */
 }
 
+
 /* Customizes the active pagination bullet */
 .swiper-pagination-bullet-active {
   background: #EA5514 !important;  /* Highlight color for the active bullet */
