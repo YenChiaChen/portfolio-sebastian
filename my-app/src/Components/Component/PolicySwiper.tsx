@@ -7,19 +7,18 @@ import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
+import { v4 as uuidv4 } from 'uuid';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 interface PolicySwiperProps {
   imgURLs: string[];
 }
 
 const PolicySwiper: React.FC<PolicySwiperProps> = ({ imgURLs }) => {
-  const pagination = {
-    clickable: true,
-    renderBullet: function (index: number, className: string) {
-      return '<span class="' + className + '">' + (index + 1) + "</span>";
-    },
-  };
+  // Generate unique IDs for each swiper component
+  const nextButtonId = `id-${uuidv4()}`;
+  const prevButtonId = `id-${uuidv4()}`;
+  const paginationId = `id-${uuidv4()}`;
+  
   return (
     <div className="relative">
       <Swiper
@@ -27,16 +26,14 @@ const PolicySwiper: React.FC<PolicySwiperProps> = ({ imgURLs }) => {
         slidesPerView={1}
         loop
         navigation={{
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+          nextEl: `.${nextButtonId}`,
+          prevEl: `.${prevButtonId}`,
         }}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper: SwiperCore) => console.log(swiper)}
         pagination={{
-          el: ".swiper-custom-pagination",
+          el: `.${paginationId}`,
           clickable: true,
         }}
-        className="w-full aspect-[16/11]  rounded-md"
+        className="w-full aspect-[16/11] rounded-md"
         autoplay={{
           delay: 4500,
           disableOnInteraction: false,
@@ -54,11 +51,11 @@ const PolicySwiper: React.FC<PolicySwiperProps> = ({ imgURLs }) => {
           ></SwiperSlide>
         ))}
       </Swiper>
-      <div className="swiper-custom-pagination" />
-      <div className="swiper-button-next absolute top-1/2 right-2 transform -translate-y-1/2 z-10 text-white text-4xl cursor-pointer">
+      <div className={paginationId} />
+      <div className={`${nextButtonId} swiper-button-next absolute top-1/2 right-2 transform -translate-y-1/2 z-10 text-white text-4xl cursor-pointer`}>
         <FontAwesomeIcon icon={faChevronRight} />
       </div>
-      <div className="swiper-button-prev absolute top-1/2 left-2 transform -translate-y-1/2 z-10 text-white text-4xl cursor-pointer">
+      <div className={`${prevButtonId} swiper-button-prev absolute top-1/2 left-2 transform -translate-y-1/2 z-10 text-white text-4xl cursor-pointer`}>
         <FontAwesomeIcon icon={faChevronLeft} />
       </div>
     </div>

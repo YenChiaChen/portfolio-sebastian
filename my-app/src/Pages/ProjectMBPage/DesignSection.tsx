@@ -16,6 +16,8 @@ import img_swiper_201 from "../../assets/img/img_project_mob_swiper_201.jpg";
 import img_swiper_202 from "../../assets/img/img_project_mob_swiper_202.jpg";
 import img_swiper_203 from "../../assets/img/img_project_mob_swiper_203.jpg";
 import img_swiper_204 from "../../assets/img/img_project_mob_swiper_204.jpg";
+import img_backcase from "../../assets/img/img_project_mob_backcast.jpg"
+import img_chart from "../../assets/img/img_project_mob_actionChart.png"
 import PolicySwiper from "../../Components/Component/PolicySwiper";
 import ModalImage from "../../Components/Component/ModalImage";
 export default function DesignSection(): ReactElement {
@@ -136,6 +138,27 @@ export default function DesignSection(): ReactElement {
           <img src={img_design_09} />
         </div>
       </div>
+      <p className="font-bold text-[24px]">
+        Backcast and formulate new communication strategies.
+      </p>
+      <p className="text-[18px] mt-2">
+        Through iterative feedback collection and analysis, I was able to
+        backcast to the present reality, creating a concise stakeholder action
+        chart and a report for future policy communication strategies. These
+        serve as catalysts for future strategies within GDS and DEFRA. They
+        highlight <span className='font-bold'>the importance of enhancing public communication through
+        storytelling-like interaction</span> and the potential for interdepartmental
+        collaboration to address environmental and agricultural challenges.
+      </p>
+      <p className="text-[18px] mt-4 font-bold">
+        Forecast and Backcast In this Project
+      </p>
+      <img src={img_backcase} />
+      <p className="text-[18px] mt-4 font-bold">
+      The Stakeholder Action Chart
+      </p>
+      <img src={img_chart} />
+
     </div>
   );
 }
