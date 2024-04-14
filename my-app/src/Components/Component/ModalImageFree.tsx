@@ -2,31 +2,25 @@ import React from 'react';
 
 interface ModalProps {
   imgURL: string;
-  aspectRatio?: string; // "auto" or a specific ratio like "16/9"
 }
 
-const ModalImage: React.FC<ModalProps> = ({ imgURL, aspectRatio = "16/9" }) => {
+const ModalImageFree: React.FC<ModalProps> = ({ imgURL }) => {
   const openModal = () => {
     const modalElement = document.getElementById(`my_modal_${imgURL}`);
     if (modalElement) {
-      (modalElement as HTMLDialogElement).showModal();
+      (modalElement as HTMLDialogElement).showModal(); 
     }
-  };
-
-  const divStyle = {
-    backgroundImage: `url(${imgURL})`,
-    ...(aspectRatio !== 'auto' && { aspectRatio }), // Only apply aspectRatio if it's not 'auto'
   };
 
   return (
     <>
-      <div
-        className="w-full bg-cover cursor-pointer bg-center"
-        style={divStyle}
+      <img
+        className="w-full cursor-pointer"
+        src={imgURL}
         onClick={openModal}
-      ></div>
+       />
       <dialog id={`my_modal_${imgURL}`} className="modal">
-        <div className="modal-box max-w-[800px] p-0 bg-[#3d3d3d]">
+        <div className="modal-box max-w-[90%] p-0 bg-[#3d3d3d]">
             <img src={imgURL} className='w-full' />
           <p className="py-4 text-center text-white">description</p>
         </div>
@@ -34,7 +28,7 @@ const ModalImage: React.FC<ModalProps> = ({ imgURL, aspectRatio = "16/9" }) => {
           <button onClick={() => {
             const modalElement = document.getElementById(`my_modal_${imgURL}`);
             if (modalElement) {
-              (modalElement as HTMLDialogElement).close();
+              (modalElement as HTMLDialogElement).close(); 
             }
           }}>close</button>
         </form>
@@ -43,4 +37,4 @@ const ModalImage: React.FC<ModalProps> = ({ imgURL, aspectRatio = "16/9" }) => {
   );
 };
 
-export default ModalImage;
+export default ModalImageFree;

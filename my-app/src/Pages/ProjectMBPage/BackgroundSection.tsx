@@ -1,5 +1,6 @@
 import { ReactElement } from "react";
-import img_background_history from "../../assets/img/img_project_mob_background.png"
+import img_background_history from "../../assets/img/img_project_mob_background.png";
+import { ReactComponent as BGQuote } from "../../assets/img/img_project_mob_quote.svg";
 export default function BackgroundSection(): ReactElement {
   return (
     <div className="container mx-auto pt-24 w-[1100px]  font-light">
@@ -11,13 +12,16 @@ export default function BackgroundSection(): ReactElement {
       <p className="text-[24px] font-bold mt-24">
         Environmental policy discussions require more resonance.
       </p>
-      <div className="text-[20px] mt-12 !font-serif">
-        "In fact, discussions regarding environmental policies are only about
-        1/10th as heated as those concerning tax policies."
-        <p className="text-right font-bold !font-serif mt-2">
-          {" "}
-          - Researcher in the Government Digital Service
-        </p>
+      <div className="mt-12 relative">
+        <BGQuote className="absolute inset-0 z-0 -top-10 scale-110" />
+        <div className="z-10 relative text-[20px] !font-serif pt-4 px-6">
+          "In fact, discussions regarding environmental policies are only about
+          1/10th as heated as those concerning tax policies."
+          <p className="text-right font-bold !font-serif px-6 mt-2">
+            {" "}
+            - Researcher in the Government Digital Service
+          </p>
+        </div>
       </div>
       <p className="mt-12 text-[18px]">
         In discussions with the Government Digital Service (GDS), I considered
@@ -50,12 +54,12 @@ export default function BackgroundSection(): ReactElement {
         2. What if the UK government takes a proactive strategy towards
         environmental conservation?
       </p>
-      <p className='text-[18px]'>
+      <p className="text-[18px]">
         With this in mind, I led my team to construct a compelling narrative
         that would capture the imagination and provoke thought on environmental
         policies.
       </p>
-      <img src={img_background_history} className='w-3/4 mx-auto my-6' />
+      <img src={img_background_history} className="w-3/4 mx-auto my-6" />
     </div>
   );
 }

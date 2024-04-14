@@ -16,10 +16,14 @@ import img_swiper_201 from "../../assets/img/img_project_mob_swiper_201.jpg";
 import img_swiper_202 from "../../assets/img/img_project_mob_swiper_202.jpg";
 import img_swiper_203 from "../../assets/img/img_project_mob_swiper_203.jpg";
 import img_swiper_204 from "../../assets/img/img_project_mob_swiper_204.jpg";
-import img_backcase from "../../assets/img/img_project_mob_backcast.jpg"
-import img_chart from "../../assets/img/img_project_mob_actionChart.png"
+import img_gds_01 from "../../assets/img/img_project_mob_gds_01.jpg"
+import img_gds_02 from "../../assets/img/img_project_mob_gds_02.jpg"
+import img_gds_03 from "../../assets/img/img_project_mob_gds_03.jpg"
+import img_backcase from "../../assets/img/img_project_mob_backcast.jpg";
+import img_chart from "../../assets/img/img_project_mob_actionChart.png";
 import PolicySwiper from "../../Components/Component/PolicySwiper";
 import ModalImage from "../../Components/Component/ModalImage";
+import ModalImageFree from "../../Components/Component/ModalImageFree";
 export default function DesignSection(): ReactElement {
   return (
     <div className="container mx-auto pt-24 w-[1100px] font-light">
@@ -146,19 +150,26 @@ export default function DesignSection(): ReactElement {
         backcast to the present reality, creating a concise stakeholder action
         chart and a report for future policy communication strategies. These
         serve as catalysts for future strategies within GDS and DEFRA. They
-        highlight <span className='font-bold'>the importance of enhancing public communication through
-        storytelling-like interaction</span> and the potential for interdepartmental
-        collaboration to address environmental and agricultural challenges.
+        highlight{" "}
+        <span className="font-bold">
+          the importance of enhancing public communication through
+          storytelling-like interaction
+        </span>{" "}
+        and the potential for interdepartmental collaboration to address
+        environmental and agricultural challenges.
       </p>
       <p className="text-[18px] mt-4 font-bold">
         Forecast and Backcast In this Project
       </p>
-      <img src={img_backcase} />
-      <p className="text-[18px] mt-4 font-bold">
-      The Stakeholder Action Chart
-      </p>
-      <img src={img_chart} />
-
+      <ModalImageFree imgURL={img_backcase} />
+      <p className="text-[18px] mt-4 font-bold">The Stakeholder Action Chart</p>
+      <ModalImageFree imgURL={img_chart} />
+      <p className="text-[18px] mt-8 font-bold">Exhibition Within GDS</p>
+      <div className="grid grid-cols-3 gap-4 mt-4 mb-16">
+        <ModalImage imgURL={img_gds_01} />
+        <ModalImage imgURL={img_gds_02} />
+        <ModalImage imgURL={img_gds_03} />
+      </div>
     </div>
   );
 }
