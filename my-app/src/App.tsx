@@ -3,6 +3,7 @@ import LandingPage from "./Pages/LandingPage";
 import AboutPage from "./Pages/AboutPage";
 import ProjectPage from "./Pages/ProjectPage";
 import ProjectMBPage from "./Pages/ProjectMBPage";
+import ProjectFinancePage from "./Pages/ProjectFinancePage";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/project" element={<ProjectPage />} />
         <Route path="/project/mob" element={<ProjectMBPage />} />
+        <Route path="/project/finance" element={<ProjectFinancePage />} />
       </Routes>
   );
 }

@@ -44,6 +44,7 @@ const HoverImage: React.FC<HoverImageProps> = ({
           height: height,
           [position]: distance,
           top: top,
+          backgroundColor: "white"
         }}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
@@ -56,7 +57,7 @@ const HoverImage: React.FC<HoverImageProps> = ({
             top: hoverTop,
           }}
         >
-          <img src={imageUrl} className="w-full" />
+          <img src={imageUrl} className="w-full bg-white" />
           <p className="text-[14px] pt-2 text-[#2e2e2e]">
             picture description picture description picture description picture
             description picture description

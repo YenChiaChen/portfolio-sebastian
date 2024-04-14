@@ -13,7 +13,7 @@ export default function DetailSection(): ReactElement {
                         2023
                     </p>
                     <p className="text-[16px] ">
-                         6-Week Team Project
+                    5-Month Individual Project
                     </p>
                 </nav>
                 <nav className='text-black'>
@@ -25,10 +25,10 @@ export default function DetailSection(): ReactElement {
                     Service Design
                     </p>
                     <p className="text-[16px] ">
-                    Future Scenarios Design
+                    UI / UX
                     </p>
                     <p className="text-[16px] ">
-                    Policy Communication
+                    Operational Strategy
                     </p>
                 </nav>
                 <nav className='text-black'>
@@ -40,7 +40,10 @@ export default function DetailSection(): ReactElement {
                     Collaborators
                     </p>
                     <p className="text-[16px] ">
-                    Government Digital Service
+                    The Neurodivisity Charity
+                    </p>
+                    <p className="text-[16px] ">
+                    The Brain Charity
                     </p>
                 </nav>
                 <nav className='text-black'>
@@ -49,16 +52,16 @@ export default function DetailSection(): ReactElement {
                         &nbsp;
                     </div>
                     <p className="text-[16px] mt-8">
-                    How might the government 
+                    How might young adults with 
                     </p>
                     <p className="text-[16px] ">
-                    effectively engage the general 
+                    ADHD manage symptoms and 
                     </p>
                     <p className="text-[16px] ">
-                    public and communicate 
+                    curb impulsive shopping behavior
                     </p>
                     <p className="text-[16px] ">
-                    environmental policies ?
+                    without a decade of learning?
                     </p>
                 </nav>
                 <nav className='text-black'>
@@ -67,16 +70,16 @@ export default function DetailSection(): ReactElement {
                         &nbsp;
                     </div>
                     <p className="text-[16px] mt-8">
-                    CArtifacts of future scenarios,
+                    A Google Chrome Extension,
                     </p>
                     <p className="text-[16px] ">
-                    A Stakeholder Action Chart,
+                    ADHD Financial Learning Journey Map,
                     </p>
                     <p className="text-[16px] ">
-                    A Future Policy Communication 
+                    Service Blueprint and System Map for ADHD
                     </p>
                     <p className="text-[16px] ">
-                    Strategy Report
+                    Financial Course
                     </p>
                 </nav>
             </footer>

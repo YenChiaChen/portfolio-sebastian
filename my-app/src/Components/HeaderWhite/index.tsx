@@ -31,7 +31,7 @@ const FlyoutNav = () => {
       transition-all duration-300 ease-out lg:px-12
       ${
         scrolled
-          ? "backdrop-blur-sm py-3 shadow-xl "
+          ? "backdrop-blur-sm py-3 shadow-xl  bg-[#262626] bg-opacity-50 "
           : "backdrop-blur-sm py-4 shadow-none"
       }`}
     >
