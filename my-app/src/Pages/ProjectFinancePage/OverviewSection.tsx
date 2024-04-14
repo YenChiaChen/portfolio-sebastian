@@ -73,11 +73,11 @@ export default function OverviewSection(): ReactElement {
         <img src={img_ovewview_bg} />
         <HoverImage width="10.5%" height="21.5%" position="left" distance="7.2%" top="15.5%" hoverLeft="24%" hoverTop="10%" imageUrl={img_ovewview_01} />
         <HoverImage width="9%" height="21.5%" position="left" distance="18.8%" top="15.5%" hoverLeft="29.8%" hoverTop="10%" imageUrl={img_ovewview_02} />
-        <HoverImage width="10.5%" height="21.5%" position="left" distance="28.9%" top="15.5%" hoverLeft="41.4%" hoverTop="30%" imageUrl={img_ovewview_03} />
-        <HoverImage width="10.5%" height="21.5%" position="left" distance="40.2%" top="15.5%" hoverLeft="52.7%" hoverTop="30%" imageUrl={img_ovewview_04} />
-        <HoverImage width="9.5%" height="21.5%" position="right" distance="36.8%" top="15.5%" hoverLeft="48.3%" hoverTop="30%" imageUrl={img_ovewview_05} />
-        <HoverImage width="9.5%" height="21.5%" position="right" distance="26.25%" top="15.5%" hoverLeft="38%" hoverTop="30%" imageUrl={img_ovewview_06} />
-        <HoverImage width="9.5%" height="21.5%" position="right" distance="15.6%" top="15.5%" hoverLeft="28%" hoverTop="30%" imageUrl={img_ovewview_07} />
+        <HoverImage width="10.5%" height="21.5%" position="left" distance="28.9%" top="15.5%" hoverLeft="41.4%" hoverTop="10%" imageUrl={img_ovewview_03} />
+        <HoverImage width="10.5%" height="21.5%" position="left" distance="40.2%" top="15.5%" hoverLeft="52.7%" hoverTop="10%" imageUrl={img_ovewview_04} />
+        <HoverImage width="9.5%" height="21.5%" position="right" distance="36.8%" top="15.5%" hoverLeft="48.3%" hoverTop="10%" imageUrl={img_ovewview_05} />
+        <HoverImage width="9.5%" height="21.5%" position="right" distance="26.25%" top="15.5%" hoverLeft="38%" hoverTop="10%" imageUrl={img_ovewview_06} />
+        <HoverImage width="9.5%" height="21.5%" position="right" distance="15.6%" top="15.5%" hoverLeft="28%" hoverTop="10%" imageUrl={img_ovewview_07} />
         <HoverImage width="9.5%" height="21.5%" position="right" distance="5%" top="15.5%" hoverLeft="18%" hoverTop="10%" imageUrl={img_ovewview_08} />
       </div>
     </>

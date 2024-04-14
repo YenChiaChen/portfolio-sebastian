@@ -1,6 +1,7 @@
 import { ReactElement } from "react";
 import { ReactComponent as Quote } from "../../assets/img/img_project_finance_quote.svg";
 import { ReactComponent as Monsters } from "../../assets/img/img_project_finance_monster.svg";
+import ModalImageFree from "../../Components/Component/ModalImageFree";
 import img_cof from "../../assets/img/img_project_finance_overview_04.png"
 
 export default function BackgroundSection(): ReactElement {
@@ -31,21 +32,21 @@ export default function BackgroundSection(): ReactElement {
           dopamine-boosting activities.
         </p>
         <p className="text-[18px] font-light mt-1">
-          Through interviews with 14 individuals with ADHD across different age
+          Through interviews with <span className='font-bold'>14 individuals</span> with ADHD across different age
           groups, I unearthed a notable phenomenon: older individuals or those
           with longer diagnoses exhibit stronger financial management skills and
-          confidence. This is attributed to their familiarity with "Alternative
-          Dopamine-boosting Activities" such as jogging, reading, gardening, or
+          confidence. This is attributed to their familiarity with "<span className='font-bold'>Alternative
+          Dopamine-boosting Activities</span>" such as jogging, reading, gardening, or
           even brewing tea, which engage their interests and dopamine. In
           contrast, young adults with ADHD may take years to explore and adopt
-          these alternatives, often relying on paper-based methods for
-          reminders. However, when dopamine levels drop, they may struggle to
+          these alternatives, often <span className='font-bold'>relying on paper-based methods for
+          reminders.</span> However, when dopamine levels drop, they may struggle to
           locate scattered notes, resorting to online shopping or substances
-          instead. How might young adults with ADHD explore and practice their
+          instead. <span className='font-bold text-[#DD663C]'>How might young adults with ADHD explore and practice their
           alternative dopamine activities without a decade of trial and
-          frustrating?
+          frustrating?</span>
         </p>
-        <img src={img_cof} />
+        <ModalImageFree imgURL={img_cof} />
       </div>
     </>
   );

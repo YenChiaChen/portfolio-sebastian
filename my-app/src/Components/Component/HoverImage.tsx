@@ -51,7 +51,7 @@ const HoverImage: React.FC<HoverImageProps> = ({
       ></div>
       {isHovered && (
         <div
-          className="fixed p-4 backdrop-blur-lg rounded-md shadow-lg z-30 max-w-[450px] bg-white bg-opacity-30"
+          className="absolute p-4 backdrop-blur-lg rounded-md shadow-lg z-30 max-w-[450px] bg-white bg-opacity-30"
           style={{
             [position]: hoverLeft,
             top: hoverTop,

@@ -4,6 +4,7 @@ import LandingSection from "./LandingSection";
 import DetailSection from "./DetailSection";
 import OverviewSection from "./OverviewSection";
 import BackgroundSection from "./BackgroundSection";
+import DesignSection from "./DesignSection";
 
 export default function ProjectFinancePage(): ReactElement {
     return (
@@ -13,6 +14,7 @@ export default function ProjectFinancePage(): ReactElement {
             <DetailSection />
             <OverviewSection />
             <BackgroundSection />
+            <DesignSection />
             <div className='bg-[#202020] h-[60px]'></div>
         </>
     );
