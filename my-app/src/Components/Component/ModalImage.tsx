@@ -2,7 +2,7 @@ import React from 'react';
 
 interface ModalProps {
   imgURL: string;
-  aspectRatio?: string; // "auto" or a specific ratio like "16/9"
+  aspectRatio?: string;
 }
 
 const ModalImage: React.FC<ModalProps> = ({ imgURL, aspectRatio = "16/9" }) => {
@@ -15,7 +15,7 @@ const ModalImage: React.FC<ModalProps> = ({ imgURL, aspectRatio = "16/9" }) => {
 
   const divStyle = {
     backgroundImage: `url(${imgURL})`,
-    ...(aspectRatio !== 'auto' && { aspectRatio }), // Only apply aspectRatio if it's not 'auto'
+    ...(aspectRatio !== 'auto' && { aspectRatio }), 
   };
 
   return (
@@ -27,7 +27,7 @@ const ModalImage: React.FC<ModalProps> = ({ imgURL, aspectRatio = "16/9" }) => {
       ></div>
       <dialog id={`my_modal_${imgURL}`} className="modal">
         <div className="modal-box max-w-[800px] p-0 bg-[#3d3d3d]">
-            <img src={imgURL} className='w-full' />
+            <img src={imgURL} className='w-full bg-white' />
           <p className="py-4 text-center text-white">description</p>
         </div>
         <form method="dialog" className="modal-backdrop">

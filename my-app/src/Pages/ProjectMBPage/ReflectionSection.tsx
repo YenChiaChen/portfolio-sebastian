@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function ReflectionSection(): ReactElement {
   return (
-    <>
+    <div id='reflection'>
       <div className="bg-[#FFFAF8] mx-auto pt-12">
         <div className="container mx-auto w-[1100px]">
           <div className="text-center mb-12">
@@ -65,6 +65,6 @@ export default function ReflectionSection(): ReactElement {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

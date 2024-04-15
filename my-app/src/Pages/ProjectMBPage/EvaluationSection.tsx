@@ -4,7 +4,7 @@ import { ReactComponent as IconDiscuss } from "../../assets/img/icon_discuss.svg
 import { ReactComponent as IconLeaf } from "../../assets/img/icon_leaf.svg";
 export default function EvaluationSection(): ReactElement {
   return (
-    <>
+    <div id='evaluation'>
       <div className="container mx-auto pt-12 w-[1100px] mb-24">
         <div className="text-center mb-12">
           <p className="text-[20px] font-light text-[#6F6F6F] tracking-[5px]">
@@ -43,6 +43,6 @@ export default function EvaluationSection(): ReactElement {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

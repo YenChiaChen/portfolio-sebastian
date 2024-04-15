@@ -6,7 +6,7 @@ import img_cof from "../../assets/img/img_project_finance_overview_04.png"
 
 export default function BackgroundSection(): ReactElement {
   return (
-    <>
+    <div id='background'>
       <div className="container mx-auto mt-16 w-[1100px]">
         <div className="text-center mt-12">
           <p className="text-[20px] font-light text-[#6F6F6F] tracking-[5px]">
@@ -48,6 +48,6 @@ export default function BackgroundSection(): ReactElement {
         </p>
         <ModalImageFree imgURL={img_cof} />
       </div>
-    </>
+    </div>
   );
 }

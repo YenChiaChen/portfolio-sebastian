@@ -4,6 +4,10 @@ import { ReactComponent as ComputerReminderT } from "../../assets/img/img_projec
 import { ReactComponent as ComputerStimulusT } from "../../assets/img/img_project_finance_designT_02.svg";
 import { ReactComponent as ComputerInspiringT } from "../../assets/img/img_project_finance_designT_03.svg";
 import { ReactComponent as DownloadButton } from "../../assets/img/img_button_download.svg";
+import { ReactComponent as ScenarioBoard } from "../../assets/img/img_project_finance_scenario.svg";
+import ModalImageFree from "../../Components/Component/ModalImageFree";
+import img_service_blueprint from "../../assets/img/img_project_finance_designD_01.png"
+import img_system_map from "../../assets/img/img_project_finance_designD_02.png"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -35,8 +39,8 @@ export default function DesignSection(): ReactElement {
   };
 
   return (
-    <>
-      <div className="container mx-auto mt-16 w-[1100px]">
+    <div id='design_deliver'>
+      <div className="container mx-auto mt-16 w-[1100px] pb-16">
         <div className="text-center mt-12">
           <p className="text-[20px] font-light text-[#6F6F6F] tracking-[5px]">
             [ &nbsp; DESIGN DELIVER &nbsp; ]
@@ -101,13 +105,37 @@ export default function DesignSection(): ReactElement {
                 </p>
               </div>
             </div>
-            <div className='col-span-2 flex flex-col items-center' >
-                <DownloadButton className='cursor-pointer hover:scale-[1.1] duration-300' />
-                <p className='text-[10px] font-light mt-2'>(The official version will be launched soon!)</p>
+            <div className="col-span-2 flex flex-col items-center">
+              <a target='_blank' href='https://drive.google.com/drive/folders/1ly0vvQjjQVFMWHZTaJ2_qobmnyU_TlOc'><DownloadButton className="cursor-pointer hover:scale-[1.1] duration-300" /></a>
+              <p className="text-[10px] font-light mt-2">
+                (The official version will be launched soon!)
+              </p>
             </div>
           </div>
         </div>
+        <p className="font-bold text-[18px]">Using Scenario Storyboard</p>
+        <ScenarioBoard className="w-full scale-[1.04]" />
+        <div className="grid grid-cols-4 gap-3 mt-4">
+          <p className="text-[14px] font-light">
+            The user feel low dopamine, being bored and powerless.
+          </p>
+          <p className="text-[14px] font-light">
+            The user wants to increase dopamine through online shopping.
+          </p>
+          <p className="text-[14px] font-light">
+            A+ Shopper detects checkout pages and pops up to remind the user
+            about alternative ways to produce dopamine.
+          </p>
+          <p className="text-[14px] font-light">
+            The user's attention is redirected from shopping, and also gain
+            dopamine through alternative activities.
+          </p>
+        </div>
+        <p className='text-[18px] font-bold mt-12 mb-4'>Service Blueprint <span className='font-light'>(Online Shopping on Amazon as an Example)</span></p>
+        <ModalImageFree imgURL={img_service_blueprint} />
+        <p className='text-[18px] font-bold mt-8 mb-4'>Marketing Pirate Funnel & Service System Map</p>
+        <ModalImageFree imgURL={img_system_map} />
       </div>
-    </>
+    </div>
   );
 }

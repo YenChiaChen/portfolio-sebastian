@@ -26,7 +26,7 @@ import ModalImage from "../../Components/Component/ModalImage";
 import ModalImageFree from "../../Components/Component/ModalImageFree";
 export default function DesignSection(): ReactElement {
   return (
-    <div className="container mx-auto pt-24 w-[1100px] font-light">
+    <div className="container mx-auto pt-24 w-[1100px] font-light" id='design_deliver'>
       <div className="text-center">
         <p className="text-[20px] font-light text-[#6F6F6F] tracking-[5px]">
           [ &nbsp; DESIGN DELIVER &nbsp; ]

@@ -3,7 +3,7 @@ import img_background_history from "../../assets/img/img_project_mob_background.
 import { ReactComponent as BGQuote } from "../../assets/img/img_project_mob_quote.svg";
 export default function BackgroundSection(): ReactElement {
   return (
-    <div className="container mx-auto pt-24 w-[1100px]  font-light">
+    <div className="container mx-auto pt-24 w-[1100px]  font-light" id='background'>
       <div className="text-center">
         <p className="text-[20px] font-light text-[#6F6F6F] tracking-[5px]">
           [ &nbsp; BACKGROUND & PROBLEM &nbsp; ]
