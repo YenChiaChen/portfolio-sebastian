@@ -106,7 +106,7 @@ export default function DesignSection(): ReactElement {
               </div>
             </div>
             <div className="col-span-2 flex flex-col items-center">
-              <a target='_blank' href='https://drive.google.com/drive/folders/1ly0vvQjjQVFMWHZTaJ2_qobmnyU_TlOc'><DownloadButton className="cursor-pointer hover:scale-[1.1] duration-300" /></a>
+              <a target='_blank' rel="noreferrer" href='https://drive.google.com/drive/folders/1ly0vvQjjQVFMWHZTaJ2_qobmnyU_TlOc'><DownloadButton className="cursor-pointer hover:scale-[1.1] duration-300" /></a>
               <p className="text-[10px] font-light mt-2">
                 (The official version will be launched soon!)
               </p>

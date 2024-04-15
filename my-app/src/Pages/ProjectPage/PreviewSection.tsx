@@ -43,7 +43,7 @@ export default function PreviewSection(): ReactElement {
             </Link>
           </div>
           <div>
-            <Link to="/project/mob">
+            <Link to="/project/epq">
               <ProjectPreviewCard
                 imgURL={img_project_03}
                 title="EPQ Learning Journey"

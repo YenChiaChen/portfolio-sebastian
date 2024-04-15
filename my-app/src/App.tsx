@@ -4,6 +4,7 @@ import AboutPage from "./Pages/AboutPage";
 import ProjectPage from "./Pages/ProjectPage";
 import ProjectMBPage from "./Pages/ProjectMBPage";
 import ProjectFinancePage from "./Pages/ProjectFinancePage";
+import ProjectEPQPage from "./Pages/ProjectEPQPage"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/project" element={<ProjectPage />} />
         <Route path="/project/mob" element={<ProjectMBPage />} />
         <Route path="/project/finance" element={<ProjectFinancePage />} />
+        <Route path="/project/epq" element={<ProjectEPQPage />} />
       </Routes>
   );
 }
