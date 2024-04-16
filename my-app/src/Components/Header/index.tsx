@@ -262,7 +262,7 @@ const LINKS = [
   },
   {
     text: "Contact",
-    href: "#",
+    href: "/#ContactSection",
     component: undefined,
   },
 ];
