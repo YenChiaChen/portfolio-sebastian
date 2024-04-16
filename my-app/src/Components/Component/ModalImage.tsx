@@ -27,7 +27,7 @@ const ModalImage: React.FC<ModalProps> = ({ imgURL, aspectRatio = "16/9" }) => {
       ></div>
       <dialog id={`my_modal_${imgURL}`} className="modal">
         <div className="modal-box max-w-[800px] p-0 bg-[#3d3d3d]">
-            <img src={imgURL} className='w-full bg-white' />
+            <img src={imgURL} className='w-full' alt="imgAlt" />
           <p className="py-4 text-center text-white">description</p>
         </div>
         <form method="dialog" className="modal-backdrop">

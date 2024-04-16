@@ -54,7 +54,7 @@ export default function PreviewSection(): ReactElement {
             </Link>
           </div>
           <div>
-            <Link to="/project/mob">
+            <Link to="/project/medicy">
               <ProjectPreviewCard
                 imgURL={img_project_04}
                 title="MEDICY: NFT News Fantasy"
@@ -65,7 +65,7 @@ export default function PreviewSection(): ReactElement {
             </Link>
           </div>
           <div>
-            <Link to="/project/mob">
+            <Link to="/project/advantech">
               <ProjectPreviewCard
                 imgURL={img_project_05}
                 title="Integrated Tele-health Solution"
@@ -76,7 +76,7 @@ export default function PreviewSection(): ReactElement {
             </Link>
           </div>
           <div>
-            <Link to="/project/mob">
+            <Link to="/project/utech">
               <ProjectPreviewCard
                 imgURL={img_project_06}
                 title="UTech"
