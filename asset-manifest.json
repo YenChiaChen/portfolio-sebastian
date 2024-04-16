@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-sebastian/static/css/main.e069dfd7.css",
-    "main.js": "/portfolio-sebastian/static/js/main.dec02014.js",
+    "main.js": "/portfolio-sebastian/static/js/main.d280695b.js",
     "static/js/453.68693753.chunk.js": "/portfolio-sebastian/static/js/453.68693753.chunk.js",
     "static/media/img_landing_about_04.jpg": "/portfolio-sebastian/static/media/img_landing_about_04.8d3ffc161126a98ae1f4.jpg",
     "static/media/img_deco_selfie.png": "/portfolio-sebastian/static/media/img_deco_selfie.e70ece4e433c1729df84.png",
@@ -175,11 +175,11 @@
     "index.html": "/portfolio-sebastian/index.html",
     "static/media/icon_scrollUp.svg": "/portfolio-sebastian/static/media/icon_scrollUp.a372f10ced5968144faaa9c14c9dddf1.svg",
     "main.e069dfd7.css.map": "/portfolio-sebastian/static/css/main.e069dfd7.css.map",
-    "main.dec02014.js.map": "/portfolio-sebastian/static/js/main.dec02014.js.map",
+    "main.d280695b.js.map": "/portfolio-sebastian/static/js/main.d280695b.js.map",
     "453.68693753.chunk.js.map": "/portfolio-sebastian/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e069dfd7.css",
-    "static/js/main.dec02014.js"
+    "static/js/main.d280695b.js"
   ]
 }
